@@ -1,0 +1,58 @@
+{
+  "id": "2186711",
+  "name": "meituan",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "112500",
+      "name": "房子",
+      "font_class": "home",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "396599",
+      "name": "我的",
+      "font_class": "iconfuzhi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "2757030",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "4320337",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "7223360",
+      "name": "星",
+      "font_class": "shengdan-xing",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "8939930",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "16328053",
+      "name": "星球",
+      "font_class": "xingqiu",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    }
+  ]
+}

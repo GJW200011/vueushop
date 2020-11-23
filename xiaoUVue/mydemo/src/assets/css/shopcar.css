@@ -1,0 +1,198 @@
+@charset "utf-8";
+[v-cloak]{
+  display: none;
+}
+.page {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.header {
+  height: .88rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .23rem;
+  border-bottom: 0.01rem solid #e4e4e4;
+  align-items: center;
+  padding-top: .4rem;
+}
+.header .menu {
+  display: flex;
+  justify-content: space-between;
+}
+.header .menu span {
+  display: block;
+  width: .12rem;
+  height: .12rem;
+  border-radius: 0.07rem;
+  background: black;
+  margin: 0 0.05rem;
+}
+.footer {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+.footer ul {
+  background: #fff;
+  width: 7.5rem;
+  border-top: .01rem solid #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .35rem;
+  height: 1.2rem;
+  align-items: center;
+  box-sizing: border-box;
+}
+.footer ul li a {
+  display: inline-block;
+  text-align: center;
+}
+.footer ul li a img {
+  width: auto;
+  height: .53rem;
+}
+.footer ul li a p {
+  font: 0.2rem/0.4rem "微软雅黑";
+  color: #838383;
+}
+.footer ul .active p {
+  color: #f46809;
+}
+.header {
+  background: #f26b11;
+}
+.header .dir img {
+  width: .17rem;
+  height: auto;
+}
+.header h2 {
+  font-size: .35rem;
+  color: #fff;
+}
+.header .menu span {
+  background: #fff;
+}
+.cton .main {
+  padding-top: .26rem;
+  margin-bottom: 2.2rem;
+  overflow: hidden;
+}
+.cton .main > li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .3rem;
+  box-shadow: 0 0 .1rem #f7f7f7;
+  width: 8.48rem;
+  transition: all 0.5s;
+}
+.cton .main > li .con {
+  width: 7.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.cton .main > li .con .lef ul {
+  height: 1.72rem;
+  display: flex;
+  align-items: center;
+  padding-left: .22rem;
+}
+.cton .main > li .con .lef ul > li input {
+  -webkit-appearance: checkbox;
+  align-items: center;
+}
+.cton .main > li .con .lef ul > li img {
+  width: 1.02rem;
+  height: auto;
+  padding: 0 .3rem;
+}
+.cton .main > li .con .lef ul > li h4 {
+  font: 0.26rem/0.54rem "微软雅黑";
+  color: #343434;
+}
+.cton .main > li .con .lef ul > li .txt1 {
+  font: 0.23rem/0.52rem "微软雅黑";
+  color: #666666;
+}
+.cton .main > li .con .lef ul > li .txt1 span {
+  font: 0.24rem/0.52rem Arial;
+}
+.cton .main > li .con .lef ul > li .txt2 {
+  font: 0.32rem/0.48rem "微软雅黑";
+  color: #e53939;
+}
+.cton .main > li .con .rit {
+  padding-top: .89rem;
+  margin-right: .3rem;
+}
+.cton .main > li .con .rit button {
+  width: .64rem;
+  height: .57rem;
+  border: .01rem solid #515151;
+  background: #fff;
+}
+.cton .main > li .con .rit input {
+  width: .79rem;
+  height: .55rem;
+  border-top: .01rem solid #515151;
+  border-bottom: .01rem solid #515151;
+  font: .28rem Arial;
+  text-align: center;
+}
+.cton .main > li .del {
+  display: inline-block;
+  width: .98rem;
+  height: 1.72rem;
+  background: #e43a3d;
+  font: 0.24rem/1.72rem "微软雅黑";
+  color: #fff;
+  text-align: center;
+}
+.cton .main .tw {
+  margin-left: -1.2rem;
+  transition: all 0.5s;
+}
+.cton .btm {
+  width: 7.5rem;
+  position: fixed;
+  bottom: 1.2rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cton .btm .lft {
+  font: 0.24rem "微软雅黑";
+  color: #666666;
+}
+.cton .btm .lft input {
+  -webkit-appearance: checkbox;
+  margin-right: .15rem;
+}
+.cton .btm .rit ul {
+  display: flex;
+  align-items: center;
+}
+.cton .btm .rit ul .txt1 {
+  text-align: right;
+  margin-right: .38rem;
+}
+.cton .btm .rit ul .txt1 h5 {
+  font: 0.3rem/0.43rem "微软雅黑";
+  color: #333333;
+}
+.cton .btm .rit ul .txt1 h5 span {
+  color: #e3393a;
+}
+.cton .btm .rit ul .txt1 p {
+  font: 0.2rem/0.37rem "微软雅黑";
+  color: #a4a4a4;
+}
+.cton .btm .rit ul .btn input {
+  width: 2.47rem;
+  height: 1.14rem;
+  background: #f26b11;
+  font: 0.2rem "微软雅黑";
+  color: #fff;
+}
